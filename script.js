@@ -11,20 +11,13 @@
 //     navbar.classList.remove("active");
 // };
 
-// var btn = $(".btn");
+// ^^ leftover when the website used to have dynamic scaling with @media rules
 
-// $(btn).hover(
-//     function() {
-//         console.log("grah");
-// },
-//     function() {
+const currencySelect = document.getElementById("currency-select");
+const phpCells = document.querySelectorAll("td.php");
+const usdCells = document.querySelectorAll("td.usd");
 
-// });
-//leftover when the website used to have dynamic scaling with @media rules
-  const currencySelect = document.getElementById("currency-select");
-  const phpCells = document.querySelectorAll("td.php");
-  const usdCells = document.querySelectorAll("td.usd");
-
+if(currencySelect != null) {
   currencySelect.addEventListener("change", function () {
     const selected = this.value;
 
@@ -36,3 +29,4 @@
       td.style.display = (selected === "usd") ? "table-cell" : "none";
     });
   });
+}
