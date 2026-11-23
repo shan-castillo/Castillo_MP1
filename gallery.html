@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bella's Calasiao Puto</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="script.js" defer> </script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- BOX ICONS -->
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <header>
+            <a href="index.html#home" class="logo"><img src="images/logo.png" /></a>
+            <!-- Menu Icon  -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <!-- Nav List -->
+            <ul class="navbar">
+                <li> <a href="index.html#home" >Home</a></li>
+                <li> <a href="products.html#products">Products</a></li>
+                <li> <a href="gallery.html#gallery" class="tab-active">Gallery</a></li>
+                <li> <a href="customers.html#customers" >Customers</a></li>
+                <li> <a href="contact.html#contact" >Contact</a></li>
+                <li> <a href="index.html#about">About</a></li>
+            </ul>
+
+            <!-- Profile  -->
+            <div class="profile">
+                <img src="images/generic person.webp" alt="" />
+                <span>Name Person</span>
+                <i class='bx bx-caret-down' ></i>
+            </div>
+        </header>
+
+
+        <!-- PRODUCTS -->
+        <section class="gallery" id="gallery">
+            <div class="heading">
+                <h1>&mdash; Gallery</h1>
+            </div>
+            
+                <div class="gallery-text">
+                <h2>Kara David's Pinas Sarap: "Paano ginagawa ang Puto Calasiao?"</h2>
+                <p>Ikatlo ang Pangasinan sa mga top producer ng kanin sa buong bansa. Sa video na ito, alamin kung paano ginagawa ang classic kakanin na Puto Calasiao, na hango sa giniling na bigas ang pagkakaluto! Join award-winning Filipino broadcast journalist Kara David as she explores the history of Filipino food on 'Pinas Sarap,' Thursday nights at 10:15 PM on GMA News TV. #PinasSarap #PSPangasinanKakanin </p>
+                </div>
+
+                <div class="content">
+                    <div>
+                    <img src="images/gallery_kara_david.jpg" height="315" width="560" />
+                    </div>
+                    <div>
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/D11HrajLR4I?si=CSWtXgf4PsK4mzUD&start=59"
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                    </div>
+                </div>
+
+                <div class="gallery-text">
+                    <h2>Akar ng Pangasinense: "Gintong Butil" Documentary</h2>
+                    <p>Sa pagsisimula ng Puto Festival 2025 sa Calasiao, Pangasinan, panoorin ang ‘Gintong Butil,’ dokumentaryo ni Akar. #GintongButil</p>
+                </div>
+                <div class="content">
+                    <div>
+                    <img src="images/gallery_akar.png" height="315" width="560" style="height: 295px; object-fit: cover;" />
+                    </div>
+                    <div>
+                        <!-- weird behavior ng fb video iframe, seems to be fixed height for 295 only, so I just adjusted manually w/ internal css -->
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F25298270819829898%2F&show_text=false&width=560&t=96" width="560" height="295" style="height: 295px" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+
+                <div class="gallery-text">
+                <h2>Puto Mosaics</h2>
+                <p>During the Puto Festival, Bella's Calasiao Puto used to compete with their stunning family-made mosaic projects (left). Their art pieces can be seen on a banner proudly posted to the entrance of their factory.
+                During the festival in 2017, Pangasinan has landed in the Guinness World Records (GWR) for assembling the largest “puto” (rice cake) mosaic last year (right). 85 volunteers worked in three shifts to put together 320,000 pieces of puto to create a mosaic depicting an image of a man feeding his grandson with the rice cake.
+                The puto were bought from 30 local makers, including Bella's Calasiao Puto, as the Calasiao government’s way of giving back to a homegrown industry that had made this town famous. <br />
+                <a href="https://newsinfo.inquirer.net/1064406/pangasinan-towns-puto-mosaic-makes-it-to-guinness" target="_blank">Check out the article by Inquirer.net</a>
+                </p>
+                </div>
+
+                <div class="content">
+                    <div>
+                    <img src="images/gallery_mosaic.png" height="315" width="560" />
+                    </div>
+                    <div>
+                    <img src="images/gallery_worldRecord.jpg" height="315" width="560" />
+                    </div>
+                </div>
+                
+                <div  class="content">
+                        <div>
+                            <img src="images/gallery_donita.jpg" height="325" width="482" style="width: 472px;" />
+                        </div>
+                        
+                        <div class="gallery-text col">
+                            <h2>Filipino-American actress, Celebrity, and Professional Chef, Donita Rose enjoying Bella's Calasiao Puto</h2>
+                            <p>Kabat yo ni? Siyempre! Kaway mga batang 90s! Bisita po natin ngayon ang Celebrity at Professional Chef na si Ms. Donita Rose na mula sa Bayan ng Malasiqui. Kasama rin niya ang kanyang asawa na si Mr. Felson Palad na mula naman sa San Manuel. 
+                            Baleg ya salamat, Ma’am Donita at Sir Felson, sa pagbisita ninyo sa aming bayan at sa pagiging isang #ProudPangasinense.
+                            Maraming salamat din, Sir Vijay Vasandani, at ipinasyal niyo sila para matikman ang ipinagmamalaking Puto Calasiao.<br />
+                            <a href="https://www.facebook.com/photo/?fbid=122263648052021863&set=a.122137481288021863" target="_blank">Facebook Post by Mayor Patrick Agustin Caramat</a></p>
+                        </div>
+                </div>
+
+                <div  class="content">
+                        <div>
+                            <img src="images/gallery_bauzon.jpg" height="325" width="482" style="object-fit: cover;" />
+                        </div>
+                        
+                        <div class="gallery-text col">
+                            <h2>Former Calasiao Mayor Joseph Arman Bauzon visits Bella's Calasiao Puto Factory</h2>
+                            <p>Look who dropped by Bella’s Calasiao Puto Factory!
+                            Thank you so much for the visit, Former Mayor Joseph Arman Bauzon!
+                        Sana nag-enjoy po kayo sa aming fresh na Calasiao Puto!
+                            Oct.31,2026<br />
+                            <a href="https://www.facebook.com/photo/?fbid=10244705502117706&set=pcb.10244705504877775" target="_blank">Facebook Post by Estrella Dela Cruz Santos</a></p>
+                        </div>
+                </div>
+
+                <div class="content">
+
+                        <div>
+                            <img src="images/gallery_party.jpg" height="325" width="482" style="width: 472px;" />
+                        </div>
+
+                        <div class="gallery-text col">
+                            <h2>Bella's Calasiao Puto, served alongside classic Filipino party foods</h2>
+                            <p>The image shows Bella's Calasiao Puto served alongside classic Filipino party foods, such as Lechon. Moreover, this rice delicacy is also eaten during breakfast or snack time, displaying the various ways to enjoy the treat and how it is ingrained in the local lifestyle.</p>
+                        </div>
+                        
+                </div>
+
+                <!-- <div class="img-column">
+                    <img src="images/products_wide.jpg" /> 
+                    <img src="images/products_cheese.jpg" /> 
+                    <img src="images/products_flavored.jpg" /> 
+                </div> -->
+            
+
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <div class="footer-box">
+                <a href="index.html#home" ><h2>Bella's Calasiao Puto</h2></a>
+                <p>Pasalubong ng Pinoy.<br />The Pride of Pangasinan Quality.</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/BellasCalasiaoPutoOfficial" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="mailto:bcppc.76@gmail.com"><i class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+            <div class="footer-box links">
+                <h2>Navigate</h2>
+                    <a href="index.html#home" class="tab-active">Home</a>
+                    <a href="products.html#products" >Products</a>
+                    <a href="gallery.html#gallery" >Gallery</a>
+                    <a href="customers.html#customers" >Customers</a>
+                    <a href="contact.html#contact" >Contact</a>
+                    <a href="index.html#about">About</a>
+            </div>
+            <div class="footer-box links">
+                <h2>Quick Actions</h2>
+                <a href="products.html#products">View Products & Menu</a>
+                <a href="#returnPolicy">Return Policy</a>
+                <a href="attributions.html#attributions">Attributions</a>
+            </div>
+            <div class="footer-box links">
+                <h2>Contact us</h2>
+                
+                <div class="contact">
+                    <ul>
+                        <li><i class='bx bxs-map'></i> #14 McArthur Highway, <br />Nalsian, Calasiao, Philippines, 2418</li>
+                        <li><i class='bx bxs-phone' ></i> 0909 956 4751</li>
+                        <li><i class='bx bxs-envelope' ></i> <a href="mailto:bcppc.76@gmail.com">bcppc.76@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright -->
+        <hr />
+        <div class="copyright">
+            <p>&#169; 2026 Bella's Calasiao Puto & Pasalubong Center. All rights reserved.</p>
+        </div>
+    </body>
+</html>
