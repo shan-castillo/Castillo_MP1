@@ -432,6 +432,21 @@ footer {
     width: 80%;
     line-height: 2rem;
 }
+#currency-select {
+  background-color: var(--orange-color);
+  color: white;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+}
+#currency-select:hover {
+    background-color: var(--light-orange-color);
+}
+option, option:hover, option:focus {
+  /* position: absolute; */
+  background-color: var(--bg-color);
+  color: var(--text-color)
+}
 
 blockquote {
   background: #f9f9f9;
