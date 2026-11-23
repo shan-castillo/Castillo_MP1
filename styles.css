@@ -264,15 +264,15 @@ footer {
     background-color: var(--orange-color);
 }
 
-.about, .products, .gallery, .customers, .contactTab {
+.about, .products, .gallery, .customers, .contactTab, .returnPolicy {
     max-width: 1000px;
     margin: auto;
     line-height: 1.8;
 }
-.products, .gallery, .customers, .contactTab {
+.products, .gallery, .customers, .contactTab, .returnPolicy {
     max-width: 1300px;
 }
-.products, .gallery, .customers, .contactTab {
+.products, .gallery, .customers, .contactTab, .returnPolicy {
     margin-top: 50px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -427,6 +427,10 @@ footer {
 .contactTab .content div {
     padding: 1rem;
     border: 1px dotted var(--text-color);
+}
+.returnPolicy {
+    width: 80%;
+    line-height: 2rem;
 }
 
 blockquote {
